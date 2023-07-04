@@ -74,8 +74,8 @@ def simulate(distance, Freq, swapping_order = None):
     # the start and end nodes may be edited as desired 
     
     start_time=1e12
-    node1 = network_topo.get_nodes_by_type(RouterNetTopo.QUANTUM_ROUTER)[0]
-    node2 = network_topo.get_nodes_by_type(RouterNetTopo.QUANTUM_ROUTER)[-1]
+    node1 = network_topo.get_nodes_by_type(RouterNetTopo.QUANTUM_ROUTER)[-1]
+    node2 = network_topo.get_nodes_by_type(RouterNetTopo.QUANTUM_ROUTER)[0]
     nm = node1.network_manager
     nm.request(node2.name, start_time, end_time=10e12, memory_size=1,target_fidelity = 0)
     tl.init()
