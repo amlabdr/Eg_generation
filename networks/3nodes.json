@@ -1,0 +1,53 @@
+{
+    "nodes": [
+      {
+        "name": "v1",
+        "type": "QuantumRouter",
+        "seed": 0,
+        "memo_size": 1
+      },
+      {
+        "name": "v2",
+        "type": "QuantumRouter",
+        "seed": 1,
+        "memo_size": 2
+      },
+      {
+        "name": "v3",
+        "type": "QuantumRouter",
+        "seed": 2,
+        "memo_size": 1
+      }
+    ],
+    "qconnections": [
+      {
+        "node1": "v1",
+        "node2": "v2",
+        "attenuation": 0,
+        "distance": 1000,
+        "type": "meet_in_the_middle"
+      },
+      {
+        "node1": "v2",
+        "node2": "v3",
+        "attenuation": 0,
+        "distance": 1000,
+        "type": "meet_in_the_middle"
+      }
+    ],
+    "is_parallel": false,
+    "stop_time": 2000000000000,
+    "cconnections": [
+      {
+        "node1": "v1",
+        "node2": "v2",
+        "distance": 1000
+      },
+      {
+        "node1": "v2",
+        "node2": "v3",
+        "distance": 1000
+      }
+  ]
+  }
+  
