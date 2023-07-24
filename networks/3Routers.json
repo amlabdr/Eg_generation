@@ -9,25 +9,25 @@
     {
       "name": "r1",
       "type": "QuantumRouter",
-      "seed": 1,
+      "seed": 0,
       "memo_size": 2
     },
     {
       "name": "r2",
       "type": "QuantumRouter",
-      "seed": 2,
+      "seed": 0,
       "memo_size": 2
     },
     {
       "name": "r3",
       "type": "QuantumRouter",
-      "seed": 3,
+      "seed": 0,
       "memo_size": 2
     },
     {
       "name": "Nodej",
       "type": "QuantumRouter",
-      "seed": 4,
+      "seed": 0,
       "memo_size": 1
     }
   ],
@@ -36,28 +36,28 @@
       "node1": "Nodei",
       "node2": "r1",
       "attenuation": 0,
-      "distance": 1000,
+      "distance": 2500.0,
       "type": "meet_in_the_middle"
     },
     {
       "node1": "r1",
       "node2": "r2",
       "attenuation": 0,
-      "distance": 1000,
+      "distance": 2500.0,
       "type": "meet_in_the_middle"
     },
     {
       "node1": "r2",
       "node2": "r3",
       "attenuation": 0,
-      "distance": 1000,
+      "distance": 2500.0,
       "type": "meet_in_the_middle"
     },
     {
       "node1": "r3",
       "node2": "Nodej",
       "attenuation": 0,
-      "distance": 1000,
+      "distance": 2500.0,
       "type": "meet_in_the_middle"
     }
   ],
@@ -67,52 +67,62 @@
     {
       "node1": "Nodei",
       "node2": "r1",
-      "distance": 1000
+      "distance": 2500.0,
+      "delay": 0
     },
     {
       "node1": "Nodei",
       "node2": "r2",
-      "distance": 1000
+      "distance": 2500.0,
+      "delay": 0
     },
     {
       "node1": "Nodei",
       "node2": "r3",
-      "distance": 1000
+      "distance": 2500.0,
+      "delay": 0
     },
     {
       "node1": "Nodei",
       "node2": "Nodej",
-      "distance": 1000
+      "distance": 2500.0,
+      "delay": 0
     },
     {
       "node1": "r1",
       "node2": "r2",
-      "distance": 1000
+      "distance": 2500.0,
+      "delay": 0
     },
     {
       "node1": "r1",
       "node2": "r3",
-      "distance": 1000
+      "distance": 2500.0,
+      "delay": 0
     },
     {
       "node1": "r1",
       "node2": "Nodej",
-      "distance": 1000
+      "distance": 2500.0,
+      "delay": 0
     },
     {
       "node1": "r2",
       "node2": "r3",
-      "distance": 1000
+      "distance": 2500.0,
+      "delay": 0
     },
     {
       "node1": "r2",
       "node2": "Nodej",
-      "distance": 1000
+      "distance": 2500.0,
+      "delay": 0
     },
     {
       "node1": "r3",
       "node2": "Nodej",
-      "distance": 1000
+      "distance": 2500.0,
+      "delay": 0
     }
-]
+  ]
 }
